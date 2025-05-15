@@ -21,4 +21,4 @@ const CourseCard = (props: CourseProps) => {
 
     )
 }
-export default CourseCard;
+export default CourseCard;  
