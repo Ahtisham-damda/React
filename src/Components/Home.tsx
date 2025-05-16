@@ -1,9 +1,16 @@
+import "./Home.css";
 function Home() {
-    return (
-        <>
-            <h1 className="text-danger">Home</h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis repellendus earum error? Tempore architecto dignissimos itaque, enim accusamus fugiat nostrum dolor obcaecati ratione, natus harum voluptates nam praesentium maiores asperiores.</p>
-        </>
-    );
+  return (
+    <section className="hero m-0 font-sans position-relative flex justify-center items-center text-white text-center overflow-hidden">
+      <div className="hero-content">
+        <h1>Welcome to Our Website!</h1>
+        <p>
+          Discover amazing content, explore new opportunities , and join us in
+          creating something extraordinary.
+        </p>
+        <a href="#learnmore">Learn More</a>
+      </div>
+    </section>
+  );
 }
 export default Home;
